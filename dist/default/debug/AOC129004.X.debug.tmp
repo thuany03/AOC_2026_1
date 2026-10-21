@@ -6,7 +6,7 @@
   <DIR>/opt/microchip/mplabx/v6.15/packs/Microchip/ATmega_DFP/3.0.158/avrasm/inc</DIR>
   <DIR></DIR>
  </INCLUDE_PATH>
- <SOURCE_FILE>implementar_fluxograma.asm</SOURCE_FILE>
+ <SOURCE_FILE>pisca_led.asm</SOURCE_FILE>
  <INCLUDED_FILES>
   <FILE>/opt/microchip/mplabx/v6.15/packs/Microchip/ATmega_DFP/3.0.158/avrasm/inc/m328Pdef.inc</FILE>
  </INCLUDED_FILES>
@@ -14,16 +14,15 @@
   <FILE>dist/default/debug/AOC129004.X.debug.obj</FILE>
  </OBJECT_FILES>
  <HEX_FILES>
-  <FILE>implementar_fluxograma.hex</FILE>
+  <FILE>pisca_led.hex</FILE>
  </HEX_FILES>
  <OUTPUT_FILES>
   <FILE>dist/default/debug/AOC129004.X.debug.map</FILE>
  </OUTPUT_FILES>
  <LABELS>
-  <setup><FILE>implementar_fluxograma.asm</FILE><LINE>8</LINE></setup>
-  <naoPress><FILE>implementar_fluxograma.asm</FILE><LINE>13</LINE></naoPress>
-  <press><FILE>implementar_fluxograma.asm</FILE><LINE>19</LINE></press>
-  <delay><FILE>implementar_fluxograma.asm</FILE><LINE>31</LINE></delay>
-  <loop><FILE>implementar_fluxograma.asm</FILE><LINE>40</LINE></loop>
+  <start><FILE>pisca_led.asm</FILE><LINE>3</LINE></start>
+  <main><FILE>pisca_led.asm</FILE><LINE>6</LINE></main>
+  <delay><FILE>pisca_led.asm</FILE><LINE>27</LINE></delay>
+  <loop><FILE>pisca_led.asm</FILE><LINE>36</LINE></loop>
  </LABELS>
 </ASSEMBLER_INFO>

@@ -19,6 +19,7 @@
       <itemPath>delay.asm</itemPath>
       <itemPath>gpio8leds.asm</itemPath>
       <itemPath>/home/aluno/Downloads/AOC129004.X/int0.asm</itemPath>
+      <itemPath>/home/aluno/Downloads/AOC129004.X/Atividade_interrupcao.asm</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"

@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.2.7  implementar_fluxograma.asm Wed Oct 21 08:48:06 2026
+AVRASM ver. 2.2.7  pisca_led.asm Wed Oct 21 09:16:25 2026
 
 
 EQU  SIGNATURE_000 0000001e
@@ -695,8 +695,7 @@ EQU  ACIaddr      0000002e
 EQU  TWIaddr      00000030
 EQU  SPMRaddr     00000032
 EQU  INT_VECTORS_SIZE 00000034
-CSEG setup        00000000
-CSEG naoPress     00000002
-CSEG press        00000005
-CSEG delay        0000000b
-CSEG loop         00000011
+CSEG start        00000000
+CSEG main         00000001
+CSEG delay        00000008
+CSEG loop         0000000e
